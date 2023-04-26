@@ -8,7 +8,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] Constants
 - [x] For
 - [x] If/Else
-- [ ] Switch
+- [x] Switch
 - [ ] Arrays
 - [ ] Slices
 - [ ] Maps
