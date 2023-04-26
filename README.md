@@ -9,7 +9,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] For
 - [x] If/Else
 - [x] Switch
-- [ ] Arrays
+- [x] Arrays
 - [ ] Slices
 - [ ] Maps
 - [ ] Range
