@@ -10,7 +10,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] If/Else
 - [x] Switch
 - [x] Arrays
-- [ ] Slices
+- [x] Slices
 - [ ] Maps
 - [ ] Range
 - [ ] Functions
