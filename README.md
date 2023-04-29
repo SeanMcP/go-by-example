@@ -14,7 +14,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] Maps
 - [x] Range
 - [x] Functions
-- [ ] Multiple Return Values
+- [x] Multiple Return Values
 - [ ] Variadic Functions
 - [ ] Closures
 - [ ] Recursion
