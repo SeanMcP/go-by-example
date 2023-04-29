@@ -12,7 +12,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] Arrays
 - [x] Slices
 - [x] Maps
-- [ ] Range
+- [x] Range
 - [ ] Functions
 - [ ] Multiple Return Values
 - [ ] Variadic Functions
