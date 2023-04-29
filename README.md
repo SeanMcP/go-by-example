@@ -3,82 +3,82 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 ---
 
 0. [x] Hello World
-0. [x] Values
-0. [x] Variables
-0. [x] Constants
-0. [x] For
-0. [x] If/Else
-0. [x] Switch
-0. [x] Arrays
-0. [x] Slices
-0. [x] Maps
-0. [x] Range
-0. [x] Functions
-0. [x] Multiple Return Values
-0. [x] Variadic Functions
-0. [x] Closures
-0. [x] Recursion
-0. [ ] Pointers
-0. [ ] Strings and Runes
-0. [ ] Structs
-0. [ ] Methods
-0. [ ] Interfaces
-0. [ ] Struct Embedding
-0. [ ] Generics
-0. [ ] Errors
-0. [ ] Goroutines
-0. [ ] Channels
-0. [ ] Channel Buffering
-0. [ ] Channel Synchronization
-0. [ ] Channel Directions
-0. [ ] Select
-0. [ ] Timeouts
-0. [ ] Non-Blocking Channel Operations
-0. [ ] Closing Channels
-0. [ ] Range over Channels
-0. [ ] Timers
-0. [ ] Tickers
-0. [ ] Worker Pools
-0. [ ] WaitGroups
-0. [ ] Rate Limiting
-0. [ ] Atomic Counters
-0. [ ] Mutexes
-0. [ ] Stateful Goroutines
-0. [ ] Sorting
-0. [ ] Sorting by Functions
-0. [ ] Panic
-0. [ ] Defer
-0. [ ] Recover
-0. [ ] String Functions
-0. [ ] String Formatting
-0. [ ] Text Templates
-0. [ ] Regular Expressions
-0. [ ] JSON
-0. [ ] XML
-0. [ ] Time
-0. [ ] Epoch
-0. [ ] Time Formatting / Parsing
-0. [ ] Random Numbers
-0. [ ] Number Parsing
-0. [ ] URL Parsing
-0. [ ] SHA256 Hashes
-0. [ ] Base64 Encoding
-0. [ ] Reading Files
-0. [ ] Writing Files
-0. [ ] Line Filters
-0. [ ] File Paths
-0. [ ] Directories
-0. [ ] Temporary Files and Directories
-0. [ ] Embed Directive
-0. [ ] Testing and Benchmarking
-0. [ ] Command-Line Arguments
-0. [ ] Command-Line Flags
-0. [ ] Command-Line Subcommands
-0. [ ] Environment Variables
-0. [ ] HTTP Client
-0. [ ] HTTP Server
-0. [ ] Context
-0. [ ] Spawning Processes
-0. [ ] Exec'ing Processes
-0. [ ] Signals
-0. [ ] Exit
+1. [x] Values
+2. [x] Variables
+3. [x] Constants
+4. [x] For
+5. [x] If/Else
+6. [x] Switch
+7. [x] Arrays
+8. [x] Slices
+9. [x] Maps
+10. [x] Range
+11. [x] Functions
+12. [x] Multiple Return Values
+13. [x] Variadic Functions
+14. [x] Closures
+15. [x] Recursion
+16. [x] Pointers
+17. [ ] Strings and Runes
+18. [ ] Structs
+19. [ ] Methods
+20. [ ] Interfaces
+21. [ ] Struct Embedding
+22. [ ] Generics
+23. [ ] Errors
+24. [ ] Goroutines
+25. [ ] Channels
+26. [ ] Channel Buffering
+27. [ ] Channel Synchronization
+28. [ ] Channel Directions
+29. [ ] Select
+30. [ ] Timeouts
+31. [ ] Non-Blocking Channel Operations
+32. [ ] Closing Channels
+33. [ ] Range over Channels
+34. [ ] Timers
+35. [ ] Tickers
+36. [ ] Worker Pools
+37. [ ] WaitGroups
+38. [ ] Rate Limiting
+39. [ ] Atomic Counters
+40. [ ] Mutexes
+41. [ ] Stateful Goroutines
+42. [ ] Sorting
+43. [ ] Sorting by Functions
+44. [ ] Panic
+45. [ ] Defer
+46. [ ] Recover
+47. [ ] String Functions
+48. [ ] String Formatting
+49. [ ] Text Templates
+50. [ ] Regular Expressions
+51. [ ] JSON
+52. [ ] XML
+53. [ ] Time
+54. [ ] Epoch
+55. [ ] Time Formatting / Parsing
+56. [ ] Random Numbers
+57. [ ] Number Parsing
+58. [ ] URL Parsing
+59. [ ] SHA256 Hashes
+60. [ ] Base64 Encoding
+61. [ ] Reading Files
+62. [ ] Writing Files
+63. [ ] Line Filters
+64. [ ] File Paths
+65. [ ] Directories
+66. [ ] Temporary Files and Directories
+67. [ ] Embed Directive
+68. [ ] Testing and Benchmarking
+69. [ ] Command-Line Arguments
+70. [ ] Command-Line Flags
+71. [ ] Command-Line Subcommands
+72. [ ] Environment Variables
+73. [ ] HTTP Client
+74. [ ] HTTP Server
+75. [ ] Context
+76. [ ] Spawning Processes
+77. [ ] Exec'ing Processes
+78. [ ] Signals
+79. [ ] Exit
