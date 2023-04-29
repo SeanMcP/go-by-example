@@ -11,7 +11,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 - [x] Switch
 - [x] Arrays
 - [x] Slices
-- [ ] Maps
+- [x] Maps
 - [ ] Range
 - [ ] Functions
 - [ ] Multiple Return Values
