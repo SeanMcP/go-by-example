@@ -20,7 +20,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 15. [x] Recursion
 16. [x] Pointers
 17. [x] Strings and Runes
-18. [ ] Structs
+18. [x] Structs
 19. [ ] Methods
 20. [ ] Interfaces
 21. [ ] Struct Embedding
