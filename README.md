@@ -19,7 +19,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 14. [x] Closures
 15. [x] Recursion
 16. [x] Pointers
-17. [ ] Strings and Runes
+17. [x] Strings and Runes
 18. [ ] Structs
 19. [ ] Methods
 20. [ ] Interfaces
