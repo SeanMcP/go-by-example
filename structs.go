@@ -19,7 +19,7 @@ func main() {
 	fmt.Println(person{name: "Alice", age: 30})
 	fmt.Println(person{name: "Fred"})
 	fmt.Println(&person{name: "Anne", age: 40})
-	// diomatic to use constructor func
+	// idiomatic to use constructor func
 	fmt.Println(newPerson("Jon"))
 
 	s := person{name: "Sean", age: 31} // different from example
