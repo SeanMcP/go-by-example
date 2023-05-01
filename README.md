@@ -22,7 +22,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 17. [x] Strings and Runes
 18. [x] Structs
 19. [x] Methods
-20. [ ] Interfaces
+20. [x] Interfaces
 21. [ ] Struct Embedding
 22. [ ] Generics
 23. [ ] Errors
