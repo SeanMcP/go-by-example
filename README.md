@@ -23,7 +23,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 18. [x] Structs
 19. [x] Methods
 20. [x] Interfaces
-21. [ ] Struct Embedding
+21. [x] Struct Embedding
 22. [ ] Generics
 23. [ ] Errors
 24. [ ] Goroutines
