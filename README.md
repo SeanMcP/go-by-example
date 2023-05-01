@@ -21,7 +21,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 16. [x] Pointers
 17. [x] Strings and Runes
 18. [x] Structs
-19. [ ] Methods
+19. [x] Methods
 20. [ ] Interfaces
 21. [ ] Struct Embedding
 22. [ ] Generics
