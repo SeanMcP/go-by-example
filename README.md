@@ -25,7 +25,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 20. [x] Interfaces
 21. [x] Struct Embedding
 22. [x] Generics
-23. [ ] Errors
+23. [x] Errors
 24. [ ] Goroutines
 25. [ ] Channels
 26. [ ] Channel Buffering
