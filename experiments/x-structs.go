@@ -6,6 +6,7 @@ type Counter struct {
 	count int
 }
 
+// is there a more "go" way to do this?
 func (c *Counter) Increment(value ...int) {
 	if value != nil {
 		c.count += value[0]
