@@ -30,7 +30,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 25. [x] Channels
 26. [x] Channel Buffering
 27. [x] Channel Synchronization
-28. [ ] Channel Directions
+28. [x] Channel Directions
 29. [ ] Select
 30. [ ] Timeouts
 31. [ ] Non-Blocking Channel Operations
