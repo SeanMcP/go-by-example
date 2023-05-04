@@ -27,7 +27,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 22. [x] Generics
 23. [x] Errors
 24. [x] Goroutines
-25. [ ] Channels
+25. [x] Channels
 26. [ ] Channel Buffering
 27. [ ] Channel Synchronization
 28. [ ] Channel Directions
