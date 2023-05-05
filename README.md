@@ -33,7 +33,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 28. [x] Channel Directions
 29. [x] Select
 30. [x] Timeouts
-31. [ ] Non-Blocking Channel Operations
+31. [x] Non-Blocking Channel Operations
 32. [ ] Closing Channels
 33. [ ] Range over Channels
 34. [ ] Timers
