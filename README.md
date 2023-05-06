@@ -35,7 +35,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 30. [x] Timeouts
 31. [x] Non-Blocking Channel Operations
 32. [x] Closing Channels
-33. [ ] Range over Channels
+33. [x] Range over Channels
 34. [ ] Timers
 35. [ ] Tickers
 36. [ ] Worker Pools
