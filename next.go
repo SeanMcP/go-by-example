@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+// TODO: add dryrun flag
 func main() {
 	data, err := os.ReadFile("README.md")
 	if err != nil {
@@ -15,10 +16,12 @@ func main() {
 		return
 	}
 
-	reg := regexp.MustCompile(`\d+. \[ \] (.+)\n`)
+	reg := regexp.MustCompile(`(\d+). \[ \] (.+)\n`)
 	result := reg.FindStringSubmatch(string(data))
 
-	example := strings.ToLower(result[1])
+	fmt.Println(result[2]+":", result[1]+"/79")
+
+	example := strings.ToLower(result[2])
 	slug := strings.ReplaceAll(example, " ", "-")
 	exec.Command("open", "https://gobyexample.com/"+slug).Run()
 
