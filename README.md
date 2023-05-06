@@ -36,7 +36,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 31. [x] Non-Blocking Channel Operations
 32. [x] Closing Channels
 33. [x] Range over Channels
-34. [ ] Timers
+34. [x] Timers
 35. [ ] Tickers
 36. [ ] Worker Pools
 37. [ ] WaitGroups
