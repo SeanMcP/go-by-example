@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"os"
 	"os/exec"
@@ -8,8 +9,26 @@ import (
 	"strings"
 )
 
-// TODO: add dryrun flag
 func main() {
+	dryRunPtr := flag.Bool("dryrun", false, "dry run")
+	verbosePtr := flag.Bool("verbose", false, "verbose")
+
+	flag.Parse()
+
+	runCheck := func(log string, fn func()) {
+		if *dryRunPtr {
+			fmt.Println(log)
+		} else {
+			fn()
+		}
+	}
+
+	verboseCheck := func(log string) {
+		if *verbosePtr {
+			fmt.Println(log)
+		}
+	}
+
 	data, err := os.ReadFile("README.md")
 	if err != nil {
 		fmt.Println("File reading error", err)
@@ -23,15 +42,31 @@ func main() {
 
 	example := strings.ToLower(result[2])
 	slug := strings.ReplaceAll(example, " ", "-")
-	exec.Command("open", "https://gobyexample.com/"+slug).Run()
+	url := "https://gobyexample.com/" + slug
+
+	runCheck("opening "+url, func() {
+		exec.Command("open", "https://gobyexample.com/"+slug).Run()
+	})
 
 	filename := slug + ".go"
 	filepath := "examples/" + filename
+	contents := "// " + filename + "\n"
 
-	os.WriteFile(filepath, []byte("// "+filename+"\n"), 0644)
+	runCheck("creating "+filepath, func() {
+		os.WriteFile(filepath, []byte(contents), 0644)
+	})
 
-	exec.Command("code", filepath+":2", "-g").Run()
+	verboseCheck(contents)
+
+	runCheck("opening "+filepath, func() {
+		exec.Command("code", filepath+":2", "-g").Run()
+	})
 
 	readme := strings.Replace(string(data), "[ ]", "[x]", 1)
-	os.WriteFile("README.md", []byte(readme), 0644)
+
+	runCheck("updating README.md", func() {
+		os.WriteFile("README.md", []byte(readme), 0644)
+	})
+
+	verboseCheck(readme)
 }
