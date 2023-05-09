@@ -37,7 +37,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 32. [x] Closing Channels
 33. [x] Range over Channels
 34. [x] Timers
-35. [ ] Tickers
+35. [x] Tickers
 36. [ ] Worker Pools
 37. [ ] WaitGroups
 38. [ ] Rate Limiting
