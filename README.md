@@ -38,7 +38,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 33. [x] Range over Channels
 34. [x] Timers
 35. [x] Tickers
-36. [ ] Worker Pools
+36. [x] Worker Pools
 37. [ ] WaitGroups
 38. [ ] Rate Limiting
 39. [ ] Atomic Counters
