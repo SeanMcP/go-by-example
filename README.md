@@ -39,7 +39,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 34. [x] Timers
 35. [x] Tickers
 36. [x] Worker Pools
-37. [ ] WaitGroups
+37. [x] WaitGroups
 38. [ ] Rate Limiting
 39. [ ] Atomic Counters
 40. [ ] Mutexes
