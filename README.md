@@ -40,7 +40,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 35. [x] Tickers
 36. [x] Worker Pools
 37. [x] WaitGroups
-38. [ ] Rate Limiting
+38. [x] Rate Limiting
 39. [ ] Atomic Counters
 40. [ ] Mutexes
 41. [ ] Stateful Goroutines
