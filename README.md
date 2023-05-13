@@ -41,7 +41,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 36. [x] Worker Pools
 37. [x] WaitGroups
 38. [x] Rate Limiting
-39. [ ] Atomic Counters
+39. [x] Atomic Counters
 40. [ ] Mutexes
 41. [ ] Stateful Goroutines
 42. [ ] Sorting
