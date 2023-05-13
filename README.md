@@ -42,7 +42,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 37. [x] WaitGroups
 38. [x] Rate Limiting
 39. [x] Atomic Counters
-40. [ ] Mutexes
+40. [x] Mutexes
 41. [ ] Stateful Goroutines
 42. [ ] Sorting
 43. [ ] Sorting by Functions
