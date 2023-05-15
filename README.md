@@ -43,7 +43,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 38. [x] Rate Limiting
 39. [x] Atomic Counters
 40. [x] Mutexes
-41. [ ] Stateful Goroutines
+41. [x] Stateful Goroutines
 42. [ ] Sorting
 43. [ ] Sorting by Functions
 44. [ ] Panic
