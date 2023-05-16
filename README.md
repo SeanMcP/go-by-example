@@ -44,7 +44,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 39. [x] Atomic Counters
 40. [x] Mutexes
 41. [x] Stateful Goroutines
-42. [ ] Sorting
+42. [x] Sorting
 43. [ ] Sorting by Functions
 44. [ ] Panic
 45. [ ] Defer
