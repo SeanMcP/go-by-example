@@ -45,7 +45,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 40. [x] Mutexes
 41. [x] Stateful Goroutines
 42. [x] Sorting
-43. [ ] Sorting by Functions
+43. [x] Sorting by Functions
 44. [ ] Panic
 45. [ ] Defer
 46. [ ] Recover
