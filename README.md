@@ -46,7 +46,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 41. [x] Stateful Goroutines
 42. [x] Sorting
 43. [x] Sorting by Functions
-44. [ ] Panic
+44. [x] Panic
 45. [ ] Defer
 46. [ ] Recover
 47. [ ] String Functions
