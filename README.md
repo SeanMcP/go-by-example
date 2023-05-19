@@ -47,7 +47,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 42. [x] Sorting
 43. [x] Sorting by Functions
 44. [x] Panic
-45. [ ] Defer
+45. [x] Defer
 46. [ ] Recover
 47. [ ] String Functions
 48. [ ] String Formatting
