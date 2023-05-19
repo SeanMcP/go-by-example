@@ -49,7 +49,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 44. [x] Panic
 45. [x] Defer
 46. [x] Recover
-47. [ ] String Functions
+47. [x] String Functions
 48. [ ] String Formatting
 49. [ ] Text Templates
 50. [ ] Regular Expressions
