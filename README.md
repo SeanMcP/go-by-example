@@ -50,7 +50,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 45. [x] Defer
 46. [x] Recover
 47. [x] String Functions
-48. [ ] String Formatting
+48. [x] String Formatting
 49. [ ] Text Templates
 50. [ ] Regular Expressions
 51. [ ] JSON
