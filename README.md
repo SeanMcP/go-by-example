@@ -53,7 +53,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 48. [x] String Formatting
 49. [x] Text Templates
 50. [x] Regular Expressions
-51. [ ] JSON
+51. [x] JSON
 52. [ ] XML
 53. [ ] Time
 54. [ ] Epoch
