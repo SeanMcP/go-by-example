@@ -55,7 +55,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 50. [x] Regular Expressions
 51. [x] JSON
 52. [x] XML
-53. [ ] Time
+53. [x] Time
 54. [ ] Epoch
 55. [ ] Time Formatting / Parsing
 56. [ ] Random Numbers
