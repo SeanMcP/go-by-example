@@ -41,7 +41,8 @@ func main() {
 	fmt.Println(result[2]+":", result[1]+"/79")
 
 	example := strings.ToLower(result[2])
-	slug := strings.ReplaceAll(example, " ", "-")
+	slug := strings.ReplaceAll(example, "/ ", "")
+	slug = strings.ReplaceAll(slug, " ", "-")
 	url := "https://gobyexample.com/" + slug
 
 	runCheck("opening "+url, func() {
