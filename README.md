@@ -58,7 +58,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 53. [x] Time
 54. [x] Epoch
 55. [x] Time Formatting / Parsing
-56. [ ] Random Numbers
+56. [x] Random Numbers
 57. [ ] Number Parsing
 58. [ ] URL Parsing
 59. [ ] SHA256 Hashes
