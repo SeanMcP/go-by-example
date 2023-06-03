@@ -60,7 +60,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 55. [x] Time Formatting / Parsing
 56. [x] Random Numbers
 57. [x] Number Parsing
-58. [ ] URL Parsing
+58. [x] URL Parsing
 59. [ ] SHA256 Hashes
 60. [ ] Base64 Encoding
 61. [ ] Reading Files
