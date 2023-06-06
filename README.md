@@ -61,7 +61,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 56. [x] Random Numbers
 57. [x] Number Parsing
 58. [x] URL Parsing
-59. [ ] SHA256 Hashes
+59. [x] SHA256 Hashes
 60. [ ] Base64 Encoding
 61. [ ] Reading Files
 62. [ ] Writing Files
