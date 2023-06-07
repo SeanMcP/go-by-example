@@ -62,7 +62,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 57. [x] Number Parsing
 58. [x] URL Parsing
 59. [x] SHA256 Hashes
-60. [ ] Base64 Encoding
+60. [x] Base64 Encoding
 61. [ ] Reading Files
 62. [ ] Writing Files
 63. [ ] Line Filters
