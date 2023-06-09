@@ -64,7 +64,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 59. [x] SHA256 Hashes
 60. [x] Base64 Encoding
 61. [x] Reading Files
-62. [ ] Writing Files
+62. [x] Writing Files
 63. [ ] Line Filters
 64. [ ] File Paths
 65. [ ] Directories
