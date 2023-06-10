@@ -65,7 +65,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 60. [x] Base64 Encoding
 61. [x] Reading Files
 62. [x] Writing Files
-63. [ ] Line Filters
+63. [x] Line Filters
 64. [ ] File Paths
 65. [ ] Directories
 66. [ ] Temporary Files and Directories
