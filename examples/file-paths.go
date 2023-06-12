@@ -27,9 +27,9 @@ func main() {
 
 	fmt.Println(strings.TrimSuffix(filename, ext)) // config
 
-	rel, err := filepath.Rel("a/b", "a/b/t/file")
+	rel, err := filepath.Rel("a/b", "a/c/t/file")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(rel) // t/file
+	fmt.Println(rel) // ../c/t/file
 }
