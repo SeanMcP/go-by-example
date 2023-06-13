@@ -67,7 +67,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 62. [x] Writing Files
 63. [x] Line Filters
 64. [x] File Paths
-65. [ ] Directories
+65. [x] Directories
 66. [ ] Temporary Files and Directories
 67. [ ] Embed Directive
 68. [ ] Testing and Benchmarking
