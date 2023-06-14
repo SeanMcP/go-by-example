@@ -5,9 +5,23 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"regexp"
+	"runtime"
 	"strings"
 )
+
+func getPath(childPath string) string {
+	_, filename, _, ok := runtime.Caller(0)
+	if !ok {
+		panic("No caller information")
+	}
+
+	path := filepath.Join(filename)
+	dir := filepath.Dir(path)
+
+	return filepath.Join(dir, childPath)
+}
 
 func main() {
 	dryRunPtr := flag.Bool("dryrun", false, "dry run")
@@ -29,7 +43,9 @@ func main() {
 		}
 	}
 
-	data, err := os.ReadFile("README.md")
+	readmePath := getPath("README.md")
+
+	data, err := os.ReadFile(readmePath)
 	if err != nil {
 		fmt.Println("File reading error", err)
 		return
@@ -50,7 +66,7 @@ func main() {
 	})
 
 	filename := slug + ".go"
-	filepath := "examples/" + filename
+	filepath := getPath("examples/" + filename)
 	contents := "// " + filename + "\n"
 
 	runCheck("creating "+filepath, func() {
@@ -65,8 +81,8 @@ func main() {
 
 	readme := strings.Replace(string(data), "[ ]", "[x]", 1)
 
-	runCheck("updating README.md", func() {
-		os.WriteFile("README.md", []byte(readme), 0644)
+	runCheck("updating "+readmePath, func() {
+		os.WriteFile(readmePath, []byte(readme), 0644)
 	})
 
 	verboseCheck(readme)
