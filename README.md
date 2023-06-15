@@ -69,7 +69,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 64. [x] File Paths
 65. [x] Directories
 66. [x] Temporary Files and Directories
-67. [ ] Embed Directive
+67. [x] Embed Directive
 68. [ ] Testing and Benchmarking
 69. [ ] Command-Line Arguments
 70. [ ] Command-Line Flags
