@@ -1,0 +1,56 @@
+// testing-and-benchmarking.go
+package main
+
+// I couldn't run this file because the project isn't a module. I would have
+// liked to have seen the output, but the code itself is pretty
+// self-explanatory.
+
+import (
+	"fmt"
+	"testing"
+)
+
+func IntMin(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+// name must start with Test*
+func TestIntMinBasic(t *testing.T) {
+	ans := IntMin(2, -2)
+	if ans != -2 {
+		t.Errorf("IntMin(2, -2) = %d; want -2", ans)
+	}
+}
+
+func TestIntMinTableDriven(t *testing.T) {
+	tests := []struct {
+		a, b int
+		want int
+	}{
+		{0, 1, 0},
+		{1, 0, 0},
+		{2, -2, -2},
+		{0, -1, -1},
+		{-1, 0, -1},
+	}
+
+	for _, tt := range tests {
+		testname := fmt.Sprintf("%d,%d", tt.a, tt.b)
+
+		t.Run(testname, func(t *testing.T) {
+			ans := IntMin(tt.a, tt.b)
+			if ans != tt.want {
+				t.Errorf("got %d, want %d", ans, tt.want)
+			}
+		})
+	}
+}
+
+func BenchmarkIntMin(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		IntMin(1, 2)
+	}
+}
