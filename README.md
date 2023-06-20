@@ -71,7 +71,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 66. [x] Temporary Files and Directories
 67. [x] Embed Directive
 68. [x] Testing and Benchmarking
-69. [ ] Command-Line Arguments
+69. [x] Command-Line Arguments
 70. [ ] Command-Line Flags
 71. [ ] Command-Line Subcommands
 72. [ ] Environment Variables
