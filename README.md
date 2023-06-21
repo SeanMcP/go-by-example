@@ -72,7 +72,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 67. [x] Embed Directive
 68. [x] Testing and Benchmarking
 69. [x] Command-Line Arguments
-70. [ ] Command-Line Flags
+70. [x] Command-Line Flags
 71. [ ] Command-Line Subcommands
 72. [ ] Environment Variables
 73. [ ] HTTP Client
