@@ -73,7 +73,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 68. [x] Testing and Benchmarking
 69. [x] Command-Line Arguments
 70. [x] Command-Line Flags
-71. [ ] Command-Line Subcommands
+71. [x] Command-Line Subcommands
 72. [ ] Environment Variables
 73. [ ] HTTP Client
 74. [ ] HTTP Server
