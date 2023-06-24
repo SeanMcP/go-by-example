@@ -75,7 +75,7 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 70. [x] Command-Line Flags
 71. [x] Command-Line Subcommands
 72. [x] Environment Variables
-73. [ ] HTTP Client
+73. [x] HTTP Client
 74. [ ] HTTP Server
 75. [ ] Context
 76. [ ] Spawning Processes
