@@ -54,6 +54,11 @@ func main() {
 	reg := regexp.MustCompile(`(\d+). \[ \] (.+)\n`)
 	result := reg.FindStringSubmatch(string(data))
 
+	if len(result) == 0 {
+		fmt.Println("No next example: you're all done!")
+		return
+	}
+
 	fmt.Println(result[2]+":", result[1]+"/79")
 
 	example := strings.ToLower(result[2])
