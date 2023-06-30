@@ -79,6 +79,6 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 74. [x] HTTP Server
 75. [x] Context
 76. [x] Spawning Processes
-77. [ ] Exec'ing Processes
+77. [x] Exec'ing Processes
 78. [ ] Signals
 79. [ ] Exit
