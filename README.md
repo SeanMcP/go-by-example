@@ -80,5 +80,5 @@ Going through the exercises in [Go By Example](https://gobyexample.com/)
 75. [x] Context
 76. [x] Spawning Processes
 77. [x] Exec'ing Processes
-78. [ ] Signals
+78. [x] Signals
 79. [ ] Exit
